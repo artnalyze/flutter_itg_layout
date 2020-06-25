@@ -21,9 +21,12 @@ class _StackWidgetPageState extends State<StackWidgetPage> {
           Positioned(
               top: 0,
               left: 0,
-              child: Text(
-                '1',
-                style: TextStyle(fontSize: 100.0),
+              child: Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  '1',
+                  style: TextStyle(fontSize: 100.0),
+                ),
               )),
           Positioned(
               top: 0,
