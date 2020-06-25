@@ -16,7 +16,7 @@ class _RowWidgetPageState extends State<RowWidgetPage> {
         backgroundColor: Colors.orange,
       ),
       body: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[
           Icon(Icons.home),
           Icon(Icons.star),
